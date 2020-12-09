@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="regform">
+    <h1 >Register</h1>
+    <p class="text">Create you account. It's free and olny takes a minute.</p>
+    <form method="GET" class="form">
+      <div class="wrap">
+        <input class="row input" 
+        type="text" 
+        placeholder="First Name" 
+        pattern="^[A-Z][a-z]{2,16}$" 
+        name="FirstName" 
+        required/>
+        <input class="row input" 
+        type="text" 
+        placeholder="Last Name" 
+        pattern="^[A-Z][a-z]{2,16}$" 
+        name="LastName" 
+        required />
+      </div>
+      <input class="width input" 
+      type="email" 
+      placeholder="Email" 
+      name="Email" 
+      required />
+      <fieldset class="male">
+        <legend>Who are you</legend>
+      <label>
+        <span>Male</span>
+        <input type="radio" name="tarif" required>
+      </label>
+      <label>
+        <span>Female</span><input type="radio" name="tarif"></label>
+      <label>
+        <span>Somethink</span><input type="radio" name="tarif"></label>
+    </fieldset>  
+      <input class="width input" 
+      type="password" 
+      placeholder="Password"
+              pattern="( ?=. *?[A-Z])(?=.*?[a-z])(?=.*?[0-9]){8,16}" 
+             name="password">
+      <input class="width input" 
+      type="password" 
+      placeholder="Confrim Password" 
+      name"confpassword" 
+      required>
+      <label class="Agreebox" >
+        <input type="checkbox" required /> <span> I accept the <a class="link" href="#">Terms of Use</a> & <a class="link" href="#"> Privacy Police</a></span>
+      </label>
+      <button class="confirmbtn width" type="confirm">Register Now</button>
+    </form>
+  </section>
+</body>
+
+</html>
