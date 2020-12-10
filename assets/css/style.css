@@ -1,3 +1,5 @@
+@import url(./fonts.css);
+
 * {
   box-sizing: border-box;
 }
@@ -24,6 +26,7 @@ h1 {
 
 .text {
   font-size: 0.9em;
+  font-family: "Langar";
   color: gray;
   border-top: 1px solid black;
   padding-top: 20px;
