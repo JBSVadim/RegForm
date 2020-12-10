@@ -10,9 +10,7 @@
   flex-direction: column;
   justify-self: center;
   background-color: lightgrey;
-  }
-
-
+}
 
 h1 {
   max-width: 120px;
@@ -24,14 +22,12 @@ h1 {
   z-index: 2;
 }
 
-
 .text {
   font-size: 0.9em;
   color: gray;
   border-top: 1px solid black;
   padding-top: 20px;
   margin: -32px 10px 10px 10px;
-  
 }
 .form {
   padding: 5px 10px;
@@ -49,14 +45,12 @@ h1 {
 }
 
 .row {
- width: 48%;
- 
- 
+  width: 48%;
 }
 
 .wrap {
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .Agreebox {
@@ -65,7 +59,12 @@ h1 {
 
 .confirmbtn {
   padding: 8px;
-  background-color: green;
+  background: linear-gradient(
+    180deg,
+    rgba(4, 120, 37, 1) 0%,
+    rgba(21, 140, 29, 1) 35%,
+    rgba(32, 184, 60, 1) 100%
+  );
   color: white;
   font-size: 1.1em;
   border-radius: 3px;
@@ -78,7 +77,6 @@ h1 {
   text-decoration: none;
   color: green;
 }
-
 
 .male {
   display: flex;
